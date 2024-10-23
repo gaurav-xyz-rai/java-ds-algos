@@ -9,7 +9,6 @@ public class MidArray
         int[] array = {1, 2};
         System.out.println(Arrays.toString(MidArray.middle(array)));
     }
-
     public static int[] middle(int[] array) {
         int[] midArray = new int[array.length - 2];
         for (int i = 1; i < array.length - 1; i++)
